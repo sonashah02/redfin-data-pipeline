@@ -1,6 +1,7 @@
 # Credentials - never commit
 airflow/include/gcp_credentials.json
 airflow/include/dbt/profiles.yml
+notebooks/redfin_all_metros.csv
 
 # Python
 __pycache__/
