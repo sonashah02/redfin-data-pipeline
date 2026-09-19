@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: mart_metro_price_trends
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - region_id
+            - period_end
+    columns:
+      - name: region_id
+        tests:
+          - not_null
+      - name: period_end
+        tests:
+          - not_null

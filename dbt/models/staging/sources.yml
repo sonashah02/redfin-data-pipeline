@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: redfin_raw
+    dataset: redfin_raw
+    tables:
+      - name: metro_weekly_housing

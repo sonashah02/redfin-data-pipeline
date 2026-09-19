@@ -1,0 +1,15 @@
+# Credentials - never commit
+airflow/include/gcp_credentials.json
+airflow/include/dbt/profiles.yml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Astro / Airflow
+airflow/.astro/
+airflow/logs/
+
+# OS
+.DS_Store
